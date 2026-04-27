@@ -29,49 +29,54 @@ html {
 
 body {
   margin: 0;
+  position: relative;
+  isolation: isolate;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   color: var(--text);
   line-height: 1.6;
-  background-color: var(--bg);
-  background-image:
-    radial-gradient(circle at 12% 10%, rgba(31, 95, 170, 0.17), transparent 0 18%),
-    radial-gradient(circle at 88% 12%, rgba(138, 145, 154, 0.16), transparent 0 16%),
-    radial-gradient(circle at 78% 42%, rgba(31, 95, 170, 0.08), transparent 0 14%),
-    linear-gradient(115deg, rgba(31, 95, 170, 0.05) 0%, transparent 22%, transparent 78%, rgba(138, 145, 154, 0.05) 100%),
-    repeating-linear-gradient(
-      90deg,
-      rgba(31, 95, 170, 0.05) 0,
-      rgba(31, 95, 170, 0.05) 1px,
-      transparent 1px,
-      transparent 140px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      rgba(31, 95, 170, 0.035) 0,
-      rgba(31, 95, 170, 0.035) 1px,
-      transparent 1px,
-      transparent 140px
-    ),
-    linear-gradient(
-      135deg,
-      transparent 0%,
-      transparent 43%,
-      rgba(31, 95, 170, 0.06) 43.2%,
-      rgba(31, 95, 170, 0.06) 43.8%,
-      transparent 44%,
-      transparent 100%
-    ),
-    linear-gradient(
-      45deg,
-      transparent 0%,
-      transparent 62%,
-      rgba(138, 145, 154, 0.055) 62.2%,
-      rgba(138, 145, 154, 0.055) 62.8%,
-      transparent 63%,
-      transparent 100%
-    ),
-    linear-gradient(180deg, #f8fbfe 0%, #edf3f8 52%, #f5f8fb 100%);
+  background:
+    radial-gradient(circle at 12% 10%, rgba(31, 95, 170, 0.18), transparent 0 24%),
+    radial-gradient(circle at 88% 12%, rgba(138, 145, 154, 0.14), transparent 0 22%),
+    radial-gradient(circle at 50% 100%, rgba(31, 95, 170, 0.08), transparent 0 28%),
+    linear-gradient(180deg, #f8fbfe 0%, #eef4fa 50%, #f4f8fc 100%);
   background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  opacity: 0.48;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 820' fill='none'%3E%3Cg stroke='%231f5faa' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round' opacity='0.95'%3E%3Cpath d='M760 112h238'/%3E%3Cpath d='M742 150h286'/%3E%3Cpath d='M722 188h316'/%3E%3Cpath d='M874 78v330'/%3E%3Cpath d='M816 108h116'/%3E%3Cpath d='M804 128h140'/%3E%3Cpath d='M794 148h160'/%3E%3Ccircle cx='818' cy='149' r='8'/%3E%3Ccircle cx='874' cy='149' r='8'/%3E%3Ccircle cx='930' cy='149' r='8'/%3E%3Cpath d='M818 157c0 34-18 42-18 70'/%3E%3Cpath d='M874 157c0 38 18 48 18 76'/%3E%3Cpath d='M930 157c0 34-16 42-16 68'/%3E%3Cpath d='M842 238h64'/%3E%3Cpath d='M824 258h100'/%3E%3Cpath d='M846 408h56'/%3E%3Cpath d='M90 594h210v88H90z'/%3E%3Cpath d='M120 624h44'/%3E%3Cpath d='M178 624h34'/%3E%3Cpath d='M226 624h34'/%3E%3Cpath d='M120 644h44'/%3E%3Cpath d='M178 644h34'/%3E%3Cpath d='M226 644h34'/%3E%3Cpath d='M126 684h148'/%3E%3Cpath d='M152 684v58'/%3E%3Cpath d='M212 684v58'/%3E%3Cpath d='M102 706h186'/%3E%3Cpath d='M288 638h122'/%3E%3Cpath d='M410 638c32 0 52 16 52 42 0 20-12 32-36 42'/%3E%3Cpath d='M462 680h138'/%3E%3Cpath d='M600 680c34 0 54 18 54 42 0 18-10 30-28 40'/%3E%3Cpath d='M654 638h118'/%3E%3Cpath d='M772 638c34 0 54 18 54 42 0 18-12 30-30 40'/%3E%3Cpath d='M450 544h74'/%3E%3Cpath d='M430 564h114'/%3E%3Cpath d='M450 584h74'/%3E%3Cpath d='M488 544v122'/%3E%3Cpath d='M468 602l20 20 20-20'/%3E%3C/g%3E%3Cg stroke='%238a919a' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' opacity='0.9'%3E%3Cpath d='M96 566c18-22 38-34 68-34 26 0 44 8 64 28 12-10 24-14 42-14 36 0 58 16 72 42'/%3E%3Cpath d='M688 542c18-18 34-26 58-26 20 0 36 6 52 20 12-8 24-12 40-12 28 0 46 12 58 32'/%3E%3Cpath d='M70 760h1080'/%3E%3Cpath d='M920 616h64'/%3E%3Cpath d='M920 638h84'/%3E%3Cpath d='M920 660h46'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 820' fill='none'%3E%3Cg stroke='%231f5faa' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='0.92'%3E%3Cpath d='M140 562h246v94H140z'/%3E%3Cpath d='M176 598h44'/%3E%3Cpath d='M232 598h44'/%3E%3Cpath d='M288 598h44'/%3E%3Cpath d='M176 620h44'/%3E%3Cpath d='M232 620h44'/%3E%3Cpath d='M288 620h44'/%3E%3Cpath d='M216 656v82'/%3E%3Cpath d='M308 656v82'/%3E%3Cpath d='M126 738h272'/%3E%3Cpath d='M398 612h110'/%3E%3Cpath d='M508 612c32 0 54 18 54 40 0 20-12 32-34 42'/%3E%3Cpath d='M562 654h152'/%3E%3Cpath d='M714 654c30 0 48 18 48 38 0 18-10 30-26 40'/%3E%3Cpath d='M788 438h146v112H788z'/%3E%3Cpath d='M824 470h74'/%3E%3Cpath d='M824 494h74'/%3E%3Cpath d='M860 550v88'/%3E%3Cpath d='M728 640h120'/%3E%3Cpath d='M848 640c36 0 56 18 56 40 0 18-12 30-28 40'/%3E%3C/g%3E%3Cg stroke='%238a919a' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round' opacity='0.86'%3E%3Cpath d='M112 532c18-18 34-26 60-26 22 0 38 8 54 20 12-8 22-10 36-10 22 0 38 8 54 24'/%3E%3Cpath d='M748 402c14-16 30-24 52-24 18 0 34 6 46 16 8-6 18-8 28-8 22 0 38 8 50 24'/%3E%3Cpath d='M90 774h1020'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right -30px top 110px, left -100px bottom 70px;
+  background-size: min(760px, 58vw) auto, min(760px, 54vw) auto;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.34;
+  background-image:
+    linear-gradient(rgba(31, 95, 170, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 95, 170, 0.1) 1px, transparent 1px),
+    linear-gradient(135deg, rgba(31, 95, 170, 0.06), transparent 42%),
+    linear-gradient(315deg, rgba(138, 145, 154, 0.06), transparent 42%);
+  background-size: 110px 110px, 110px 110px, 100% 100%, 100% 100%;
+  mask-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.52) 0%,
+    rgba(0, 0, 0, 0.22) 22%,
+    rgba(0, 0, 0, 0.08) 50%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
 }
 
 img {
@@ -103,9 +108,9 @@ textarea {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(245, 247, 250, 0.84);
+  background: rgba(245, 247, 250, 0.9);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(201, 209, 217, 0.76);
+  border-bottom: 1px solid rgba(201, 209, 217, 0.72);
 }
 
 .header-inner {
@@ -117,7 +122,7 @@ textarea {
 }
 
 .brand {
-  flex: 0 0 320px;
+  flex: 0 0 310px;
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
@@ -126,7 +131,7 @@ textarea {
 
 .brand-logo {
   width: 100%;
-  max-width: 292px;
+  max-width: 285px;
   max-height: 108px;
   height: auto;
   object-fit: contain;
@@ -175,7 +180,7 @@ textarea {
 
 .lang-btn {
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.82);
   color: var(--text-soft);
   min-width: 46px;
   height: 38px;
@@ -228,7 +233,7 @@ textarea {
 .hero-content,
 .hero-card {
   background: var(--surface);
-  border: 1px solid rgba(217, 224, 232, 0.8);
+  border: 1px solid rgba(217, 224, 232, 0.82);
   border-radius: 30px;
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(10px);
@@ -358,7 +363,7 @@ textarea {
   border-radius: var(--radius-lg);
   padding: 28px 24px;
   box-shadow: var(--shadow-card);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(7px);
 }
 
 .info-card h3,
@@ -412,7 +417,7 @@ textarea {
   border-radius: 30px;
   padding: 34px 32px;
   box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
 }
 
 .contact-list {
@@ -430,7 +435,7 @@ textarea {
 .site-footer {
   margin-top: 44px;
   background:
-    radial-gradient(circle at 12% 18%, rgba(31, 95, 170, 0.2), transparent 0 22%),
+    radial-gradient(circle at 12% 18%, rgba(31, 95, 170, 0.18), transparent 0 22%),
     linear-gradient(180deg, #0f1217 0%, #111317 100%);
   color: var(--footer-text);
   padding: 48px 0;
@@ -505,6 +510,12 @@ textarea {
 
   .brand-logo {
     max-width: 230px;
+  }
+
+  body::before {
+    background-position: right -80px top 120px, left -160px bottom 70px;
+    background-size: min(640px, 62vw) auto, min(620px, 56vw) auto;
+    opacity: 0.4;
   }
 }
 
@@ -592,6 +603,17 @@ textarea {
   .menu-toggle.open span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
   }
+
+  body::before {
+    background-position: right -130px top 100px, left -180px bottom 40px;
+    background-size: min(520px, 78vw) auto, min(520px, 72vw) auto;
+    opacity: 0.32;
+  }
+
+  body::after {
+    opacity: 0.22;
+    background-size: 90px 90px, 90px 90px, 100% 100%, 100% 100%;
+  }
 }
 
 @media (max-width: 560px) {
@@ -619,6 +641,12 @@ textarea {
 
   .primary-btn {
     width: 100%;
+  }
+
+  body::before {
+    background-position: right -160px top 120px, left -170px bottom 20px;
+    background-size: 440px auto, 430px auto;
+    opacity: 0.24;
   }
 }
 
@@ -661,7 +689,7 @@ textarea {
   border: 1px solid var(--line);
   border-radius: 30px;
   box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
 }
 
 .content-main {
