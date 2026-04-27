@@ -826,3 +826,7 @@ textarea {
     height: 72px;
   }
 }
+/* PAGE-SPECIFIC BACKGROUND IMAGES */
+body.page-home::before {
+  background-image: url("assets/backgrounds/1.png");
+}
