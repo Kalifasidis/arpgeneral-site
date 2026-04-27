@@ -124,7 +124,7 @@ const translations = {
       "company.html": {
         title: "Η Εταιρεία | ARP GENERAL I.K.E.",
         description:
-          "Η ARP GENERAL I.K.E. παρουσιάζει το εταιρικό της προφίλ, την οργανωτική της προσέγγιση και τη δραστηριότητά της στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας.",
+          "Η ARP GENERAL I.K.E. αποτελεί σύγχρονη εταιρική παρουσία στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
       },
       "services.html": {
         title: "Υπηρεσίες | ARP GENERAL I.K.E.",
@@ -329,6 +329,17 @@ function updateDesktopNav(language) {
   navLinks[4].textContent = translations[language].nav.contact;
 }
 
+function updateFooterNav(language) {
+  const footerLinks = document.querySelectorAll(".footer-links a");
+  if (footerLinks.length < 5) return;
+
+  footerLinks[0].textContent = translations[language].nav.home;
+  footerLinks[1].textContent = translations[language].nav.company;
+  footerLinks[2].textContent = translations[language].nav.services;
+  footerLinks[3].textContent = translations[language].nav.sectors;
+  footerLinks[4].textContent = translations[language].nav.contact;
+}
+
 function createMobileNav() {
   const menuToggle = document.querySelector(".menu-toggle");
   const headerInner = document.querySelector(".header-inner");
@@ -390,6 +401,7 @@ function updateLanguageButtons(language) {
 
 function updateCommonContent(language) {
   updateDesktopNav(language);
+  updateFooterNav(language);
   updateMobileNav(language);
   updateLanguageButtons(language);
 }
