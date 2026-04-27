@@ -829,4 +829,8 @@ textarea {
 /* PAGE-SPECIFIC BACKGROUND IMAGES */
 body.page-home::before {
   background-image: url("assets/backgrounds/1.png");
+  background-repeat: no-repeat;
+  background-position: center top 120px;
+  background-size: min(1200px, 92vw) auto;
+  opacity: 0.55;
 }
