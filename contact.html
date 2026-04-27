@@ -41,9 +41,9 @@
     <main>
       <section class="page-hero">
         <div class="container page-hero-inner">
-          <p class="section-label">Επικοινωνία</p>
-          <h1>Επικοινωνήστε με την ARP GENERAL I.K.E.</h1>
-          <p class="page-hero-text">
+          <p class="section-label contact-label">Επικοινωνία</p>
+          <h1 class="contact-hero-title">Επικοινωνήστε με την ARP GENERAL I.K.E.</h1>
+          <p class="page-hero-text contact-hero-text">
             Για πληροφορίες σχετικά με την εταιρική παρουσία και τον τομέα
             δραστηριότητας της ARP GENERAL I.K.E., μπορείτε να επικοινωνήσετε
             μαζί μας μέσω των παρακάτω στοιχείων ή της φόρμας επικοινωνίας.
@@ -54,80 +54,94 @@
       <section class="content-section">
         <div class="container contact-page-grid">
           <div class="content-main">
-            <p class="section-label">Στοιχεία επικοινωνίας</p>
+            <p class="section-label contact-details-section-label">Στοιχεία επικοινωνίας</p>
             <h2 class="contact-page-title">ARP GENERAL I.K.E.</h2>
 
             <ul class="contact-details-list">
               <li>
-                <span class="contact-details-label">Έδρα</span>
-                <span class="contact-details-value">Νέα Σμύρνη, Αττική</span>
+                <span class="contact-details-label contact-detail-label-1">Έδρα</span>
+                <span class="contact-details-value contact-detail-value-1">Νέα Σμύρνη, Αττική</span>
               </li>
               <li>
-                <span class="contact-details-label">Τηλέφωνο</span>
-                <span class="contact-details-value">6978441042</span>
+                <span class="contact-details-label contact-detail-label-2">Τηλέφωνο</span>
+                <span class="contact-details-value contact-detail-value-2">6978441042</span>
               </li>
               <li>
-                <span class="contact-details-label">Email</span>
-                <span class="contact-details-value">info@arpgeneral.com</span>
+                <span class="contact-details-label contact-detail-label-3">Email</span>
+                <span class="contact-details-value contact-detail-value-3">info@arpgeneral.com</span>
               </li>
             </ul>
           </div>
 
           <div class="side-card contact-form-card">
-            <p class="section-label">Φόρμα Επικοινωνίας</p>
+            <p class="section-label contact-form-label">Φόρμα Επικοινωνίας</p>
 
             <form
               class="contact-form"
               action="https://formspree.io/f/mlgakwev"
               method="POST"
             >
-              <input type="hidden" name="_subject" value="Νέο μήνυμα από το ARP General site" />
-              <input type="hidden" name="_language" value="el" />
+              <input
+                type="hidden"
+                name="_subject"
+                value="Νέο μήνυμα από το ARP General site"
+                class="contact-subject-field"
+              />
+              <input
+                type="hidden"
+                name="_language"
+                value="el"
+                class="contact-language-field"
+              />
 
               <div class="form-row">
-                <label for="full-name">Ονοματεπώνυμο</label>
+                <label for="full-name" class="contact-form-name-label">Ονοματεπώνυμο</label>
                 <input
                   type="text"
                   id="full-name"
                   name="Ονοματεπώνυμο"
                   placeholder="Το ονοματεπώνυμό σας"
                   required
+                  class="contact-input-name"
                 />
               </div>
 
               <div class="form-row">
-                <label for="email">Email</label>
+                <label for="email" class="contact-form-email-label">Email</label>
                 <input
                   type="email"
                   id="email"
                   name="Email"
                   placeholder="Το email σας"
                   required
+                  class="contact-input-email"
                 />
               </div>
 
               <div class="form-row">
-                <label for="phone">Τηλέφωνο</label>
+                <label for="phone" class="contact-form-phone-label">Τηλέφωνο</label>
                 <input
                   type="text"
                   id="phone"
                   name="Τηλέφωνο"
                   placeholder="Το τηλέφωνό σας"
+                  class="contact-input-phone"
                 />
               </div>
 
               <div class="form-row">
-                <label for="message">Μήνυμα</label>
+                <label for="message" class="contact-form-message-label">Μήνυμα</label>
                 <textarea
                   id="message"
                   name="Μήνυμα"
                   rows="6"
                   placeholder="Γράψτε το μήνυμά σας"
                   required
+                  class="contact-input-message"
                 ></textarea>
               </div>
 
-              <button type="submit" class="primary-btn form-btn">Αποστολή</button>
+              <button type="submit" class="primary-btn form-btn contact-form-btn">Αποστολή</button>
             </form>
           </div>
         </div>
@@ -136,16 +150,16 @@
       <section class="contact-cta">
         <div class="container contact-cta-inner">
           <div>
-            <p class="section-label">ARP GENERAL I.K.E.</p>
-            <h2>Σύγχρονη εταιρική παρουσία με καθαρή επαγγελματική εικόνα</h2>
+            <p class="section-label contact-cta-label">ARP GENERAL I.K.E.</p>
+            <h2 class="contact-cta-title">Σύγχρονη εταιρική παρουσία με καθαρή επαγγελματική εικόνα</h2>
             <ul class="contact-list">
-              <li>Νέα Σμύρνη, Αττική</li>
-              <li>6978441042</li>
-              <li>info@arpgeneral.com</li>
+              <li class="contact-cta-item-1">Νέα Σμύρνη, Αττική</li>
+              <li class="contact-cta-item-2">6978441042</li>
+              <li class="contact-cta-item-3">info@arpgeneral.com</li>
             </ul>
           </div>
 
-          <a href="mailto:info@arpgeneral.com" class="primary-btn">Αποστολή Email</a>
+          <a href="mailto:info@arpgeneral.com" class="primary-btn contact-cta-btn">Αποστολή Email</a>
         </div>
       </section>
     </main>
@@ -155,13 +169,13 @@
         <div class="footer-brand">
           <img src="assets/logo.png" alt="ARP GENERAL I.K.E. logo" class="footer-logo" />
           <p class="footer-title">ARP GENERAL I.K.E.</p>
-          <p>Νέα Σμύρνη, Αττική</p>
-          <p>info@arpgeneral.com</p>
-          <p>6978441042</p>
+          <p class="contact-footer-item-1">Νέα Σμύρνη, Αττική</p>
+          <p class="contact-footer-item-2">info@arpgeneral.com</p>
+          <p class="contact-footer-item-3">6978441042</p>
         </div>
 
         <div class="footer-links">
-          <p class="footer-heading">Πλοήγηση</p>
+          <p class="footer-heading contact-footer-heading">Πλοήγηση</p>
           <a href="index.html">Αρχική</a>
           <a href="company.html">Η Εταιρεία</a>
           <a href="services.html">Υπηρεσίες</a>
@@ -172,5 +186,185 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      (function () {
+        const contactTranslations = {
+          gr: {
+            htmlLang: "el",
+            title: "Επικοινωνία | ARP GENERAL I.K.E.",
+            description:
+              "Επικοινωνήστε με την ARP GENERAL I.K.E. για πληροφορίες σχετικά με έργα σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
+            heroLabel: "Επικοινωνία",
+            heroTitle: "Επικοινωνήστε με την ARP GENERAL I.K.E.",
+            heroText:
+              "Για πληροφορίες σχετικά με την εταιρική παρουσία και τον τομέα δραστηριότητας της ARP GENERAL I.K.E., μπορείτε να επικοινωνήσετε μαζί μας μέσω των παρακάτω στοιχείων ή της φόρμας επικοινωνίας.",
+            detailsLabel: "Στοιχεία επικοινωνίας",
+            officeLabel: "Έδρα",
+            officeValue: "Νέα Σμύρνη, Αττική",
+            phoneLabel: "Τηλέφωνο",
+            phoneValue: "6978441042",
+            emailLabel: "Email",
+            emailValue: "info@arpgeneral.com",
+            formLabel: "Φόρμα Επικοινωνίας",
+            nameLabel: "Ονοματεπώνυμο",
+            namePlaceholder: "Το ονοματεπώνυμό σας",
+            emailFormLabel: "Email",
+            emailPlaceholder: "Το email σας",
+            phoneFormLabel: "Τηλέφωνο",
+            phonePlaceholder: "Το τηλέφωνό σας",
+            messageLabel: "Μήνυμα",
+            messagePlaceholder: "Γράψτε το μήνυμά σας",
+            submitBtn: "Αποστολή",
+            ctaLabel: "ARP GENERAL I.K.E.",
+            ctaTitle: "Σύγχρονη εταιρική παρουσία με καθαρή επαγγελματική εικόνα",
+            ctaBtn: "Αποστολή Email",
+            footerHeading: "Πλοήγηση",
+            subject: "Νέο μήνυμα από το ARP General site",
+            languageValue: "el",
+            fullNameName: "Ονοματεπώνυμο",
+            emailName: "Email",
+            phoneName: "Τηλέφωνο",
+            messageName: "Μήνυμα",
+          },
+          en: {
+            htmlLang: "en",
+            title: "Contact | ARP GENERAL I.K.E.",
+            description:
+              "Contact ARP GENERAL I.K.E. for information regarding electrical power distribution network projects.",
+            heroLabel: "Contact",
+            heroTitle: "Contact ARP GENERAL I.K.E.",
+            heroText:
+              "For information regarding the company's profile and sector of activity, you can contact ARP GENERAL I.K.E. through the details below or via the contact form.",
+            detailsLabel: "Contact Details",
+            officeLabel: "Registered Office",
+            officeValue: "Nea Smyrni, Attica",
+            phoneLabel: "Phone",
+            phoneValue: "6978441042",
+            emailLabel: "Email",
+            emailValue: "info@arpgeneral.com",
+            formLabel: "Contact Form",
+            nameLabel: "Full Name",
+            namePlaceholder: "Your full name",
+            emailFormLabel: "Email",
+            emailPlaceholder: "Your email",
+            phoneFormLabel: "Phone",
+            phonePlaceholder: "Your phone number",
+            messageLabel: "Message",
+            messagePlaceholder: "Write your message",
+            submitBtn: "Send",
+            ctaLabel: "ARP GENERAL I.K.E.",
+            ctaTitle: "Modern corporate presence with a clear professional image",
+            ctaBtn: "Send Email",
+            footerHeading: "Navigation",
+            subject: "New message from the ARP General site",
+            languageValue: "en",
+            fullNameName: "Full Name",
+            emailName: "Email",
+            phoneName: "Phone",
+            messageName: "Message",
+          },
+        };
+
+        function setDescription(content) {
+          const meta = document.querySelector('meta[name="description"]');
+          if (meta) meta.setAttribute("content", content);
+        }
+
+        function applyContactLanguage(language) {
+          const t = contactTranslations[language] || contactTranslations.gr;
+
+          document.documentElement.lang = t.htmlLang;
+          document.title = t.title;
+          setDescription(t.description);
+
+          const textMap = [
+            [".contact-label", t.heroLabel],
+            [".contact-hero-title", t.heroTitle],
+            [".contact-hero-text", t.heroText],
+            [".contact-details-section-label", t.detailsLabel],
+            [".contact-detail-label-1", t.officeLabel],
+            [".contact-detail-value-1", t.officeValue],
+            [".contact-detail-label-2", t.phoneLabel],
+            [".contact-detail-value-2", t.phoneValue],
+            [".contact-detail-label-3", t.emailLabel],
+            [".contact-detail-value-3", t.emailValue],
+            [".contact-form-label", t.formLabel],
+            [".contact-form-name-label", t.nameLabel],
+            [".contact-form-email-label", t.emailFormLabel],
+            [".contact-form-phone-label", t.phoneFormLabel],
+            [".contact-form-message-label", t.messageLabel],
+            [".contact-form-btn", t.submitBtn],
+            [".contact-cta-label", t.ctaLabel],
+            [".contact-cta-title", t.ctaTitle],
+            [".contact-cta-item-1", t.officeValue],
+            [".contact-cta-item-2", t.phoneValue],
+            [".contact-cta-item-3", t.emailValue],
+            [".contact-cta-btn", t.ctaBtn],
+            [".contact-footer-item-1", t.officeValue],
+            [".contact-footer-item-2", t.emailValue],
+            [".contact-footer-item-3", t.phoneValue],
+            [".contact-footer-heading", t.footerHeading],
+          ];
+
+          textMap.forEach(([selector, value]) => {
+            const el = document.querySelector(selector);
+            if (el) el.textContent = value;
+          });
+
+          const nameInput = document.querySelector(".contact-input-name");
+          const emailInput = document.querySelector(".contact-input-email");
+          const phoneInput = document.querySelector(".contact-input-phone");
+          const messageInput = document.querySelector(".contact-input-message");
+          const subjectField = document.querySelector(".contact-subject-field");
+          const languageField = document.querySelector(".contact-language-field");
+
+          if (nameInput) {
+            nameInput.setAttribute("placeholder", t.namePlaceholder);
+            nameInput.setAttribute("name", t.fullNameName);
+          }
+
+          if (emailInput) {
+            emailInput.setAttribute("placeholder", t.emailPlaceholder);
+            emailInput.setAttribute("name", t.emailName);
+          }
+
+          if (phoneInput) {
+            phoneInput.setAttribute("placeholder", t.phonePlaceholder);
+            phoneInput.setAttribute("name", t.phoneName);
+          }
+
+          if (messageInput) {
+            messageInput.setAttribute("placeholder", t.messagePlaceholder);
+            messageInput.setAttribute("name", t.messageName);
+          }
+
+          if (subjectField) {
+            subjectField.value = t.subject;
+          }
+
+          if (languageField) {
+            languageField.value = t.languageValue;
+          }
+        }
+
+        function getSavedLanguage() {
+          const saved = localStorage.getItem("arp-language");
+          return saved === "en" ? "en" : "gr";
+        }
+
+        function bindContactButtons() {
+          document.querySelectorAll(".lang-switch .lang-btn").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              setTimeout(() => {
+                applyContactLanguage(getSavedLanguage());
+              }, 0);
+            });
+          });
+        }
+
+        applyContactLanguage(getSavedLanguage());
+        bindContactButtons();
+      })();
+    </script>
   </body>
 </html>

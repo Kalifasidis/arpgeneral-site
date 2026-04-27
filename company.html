@@ -41,9 +41,11 @@
     <main>
       <section class="page-hero">
         <div class="container page-hero-inner">
-          <p class="section-label">Η Εταιρεία</p>
-          <h1>Σύγχρονη εταιρική παρουσία με γνώση του αντικειμένου και οργανωτική προσέγγιση</h1>
-          <p class="page-hero-text">
+          <p class="section-label company-label">Η Εταιρεία</p>
+          <h1 class="company-hero-title">
+            Σύγχρονη εταιρική παρουσία με γνώση του αντικειμένου και οργανωτική προσέγγιση
+          </h1>
+          <p class="page-hero-text company-hero-text">
             Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των έργων σε δίκτυα
             διανομής ηλεκτρικής ενέργειας, με σταθερή παρουσία τα τελευταία χρόνια
             και επαγγελματικό προσανατολισμό.
@@ -54,18 +56,18 @@
       <section class="content-section">
         <div class="container content-grid">
           <div class="content-main">
-            <p>
+            <p class="company-main-text-1">
               Η <strong>ARP GENERAL I.K.E.</strong> αποτελεί σύγχρονη εταιρική παρουσία
               στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας.
             </p>
 
-            <p>
+            <p class="company-main-text-2">
               Με σταθερή παρουσία τα τελευταία χρόνια στον χώρο, η εταιρεία διαθέτει
               γνώση του αντικειμένου, οργανωτική προσέγγιση και ουσιαστική κατανόηση
               των απαιτήσεων που συνοδεύουν έργα τεχνικής υποστήριξης και συντονισμού.
             </p>
 
-            <p>
+            <p class="company-main-text-3">
               Η εταιρική της εικόνα βασίζεται στη συνέπεια, στην υπευθυνότητα και στη
               σαφή επαγγελματική παρουσία, με έμφαση στην οργάνωση, στην παρακολούθηση
               και στη σωστή υποστήριξη του έργου.
@@ -74,12 +76,12 @@
 
           <aside class="content-side">
             <div class="side-card">
-              <p class="section-label">Βασικά στοιχεία</p>
+              <p class="section-label company-side-label">Βασικά στοιχεία</p>
               <ul class="side-list">
-                <li>Σταθερή παρουσία τα τελευταία χρόνια</li>
-                <li>Γνώση και κατανόηση του αντικειμένου</li>
-                <li>Οργάνωση και υποστήριξη έργων</li>
-                <li>Σαφής επαγγελματική εικόνα</li>
+                <li class="company-side-item-1">Σταθερή παρουσία τα τελευταία χρόνια</li>
+                <li class="company-side-item-2">Γνώση και κατανόηση του αντικειμένου</li>
+                <li class="company-side-item-3">Οργάνωση και υποστήριξη έργων</li>
+                <li class="company-side-item-4">Σαφής επαγγελματική εικόνα</li>
               </ul>
             </div>
           </aside>
@@ -89,16 +91,16 @@
       <section class="contact-cta">
         <div class="container contact-cta-inner">
           <div>
-            <p class="section-label">Επικοινωνία</p>
-            <h2>Επικοινωνήστε μαζί μας</h2>
+            <p class="section-label company-contact-label">Επικοινωνία</p>
+            <h2 class="company-contact-title">Επικοινωνήστε μαζί μας</h2>
             <ul class="contact-list">
-              <li>Νέα Σμύρνη, Αττική</li>
-              <li>6978441042</li>
-              <li>info@arpgeneral.com</li>
+              <li class="company-contact-item-1">Νέα Σμύρνη, Αττική</li>
+              <li class="company-contact-item-2">6978441042</li>
+              <li class="company-contact-item-3">info@arpgeneral.com</li>
             </ul>
           </div>
 
-          <a href="contact.html" class="primary-btn">Αποστολή Μηνύματος</a>
+          <a href="contact.html" class="primary-btn company-contact-btn">Αποστολή Μηνύματος</a>
         </div>
       </section>
     </main>
@@ -108,13 +110,13 @@
         <div class="footer-brand">
           <img src="assets/logo.png" alt="ARP GENERAL I.K.E. logo" class="footer-logo" />
           <p class="footer-title">ARP GENERAL I.K.E.</p>
-          <p>Νέα Σμύρνη, Αττική</p>
-          <p>info@arpgeneral.com</p>
-          <p>6978441042</p>
+          <p class="company-footer-item-1">Νέα Σμύρνη, Αττική</p>
+          <p class="company-footer-item-2">info@arpgeneral.com</p>
+          <p class="company-footer-item-3">6978441042</p>
         </div>
 
         <div class="footer-links">
-          <p class="footer-heading">Πλοήγηση</p>
+          <p class="footer-heading company-footer-heading">Πλοήγηση</p>
           <a href="index.html">Αρχική</a>
           <a href="company.html">Η Εταιρεία</a>
           <a href="services.html">Υπηρεσίες</a>
@@ -125,5 +127,138 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      (function () {
+        const companyTranslations = {
+          gr: {
+            htmlLang: "el",
+            title: "Η Εταιρεία | ARP GENERAL I.K.E.",
+            description:
+              "Η ARP GENERAL I.K.E. αποτελεί σύγχρονη εταιρική παρουσία στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
+            label: "Η Εταιρεία",
+            heroTitle:
+              "Σύγχρονη εταιρική παρουσία με γνώση του αντικειμένου και οργανωτική προσέγγιση",
+            heroText:
+              "Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας, με σταθερή παρουσία τα τελευταία χρόνια και επαγγελματικό προσανατολισμό.",
+            main1:
+              "Η ARP GENERAL I.K.E. αποτελεί σύγχρονη εταιρική παρουσία στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
+            main2:
+              "Με σταθερή παρουσία τα τελευταία χρόνια στον χώρο, η εταιρεία διαθέτει γνώση του αντικειμένου, οργανωτική προσέγγιση και ουσιαστική κατανόηση των απαιτήσεων που συνοδεύουν έργα τεχνικής υποστήριξης και συντονισμού.",
+            main3:
+              "Η εταιρική της εικόνα βασίζεται στη συνέπεια, στην υπευθυνότητα και στη σαφή επαγγελματική παρουσία, με έμφαση στην οργάνωση, στην παρακολούθηση και στη σωστή υποστήριξη του έργου.",
+            sideLabel: "Βασικά στοιχεία",
+            side1: "Σταθερή παρουσία τα τελευταία χρόνια",
+            side2: "Γνώση και κατανόηση του αντικειμένου",
+            side3: "Οργάνωση και υποστήριξη έργων",
+            side4: "Σαφής επαγγελματική εικόνα",
+            contactLabel: "Επικοινωνία",
+            contactTitle: "Επικοινωνήστε μαζί μας",
+            contactBtn: "Αποστολή Μηνύματος",
+            location: "Νέα Σμύρνη, Αττική",
+            footerHeading: "Πλοήγηση",
+          },
+          en: {
+            htmlLang: "en",
+            title: "Company | ARP GENERAL I.K.E.",
+            description:
+              "ARP GENERAL I.K.E. is a modern corporate presence in the field of electrical power distribution network projects.",
+            label: "Company",
+            heroTitle:
+              "Modern corporate presence with field knowledge and an organized approach",
+            heroText:
+              "ARP GENERAL I.K.E. is active in electrical power distribution network projects, with a steady presence in recent years and a professional orientation.",
+            main1:
+              "ARP GENERAL I.K.E. is a modern corporate presence in the field of electrical power distribution network projects.",
+            main2:
+              "With a steady presence in recent years, the company has field knowledge, an organized approach and substantial understanding of the requirements that accompany technical support and coordination projects.",
+            main3:
+              "Its corporate image is based on consistency, responsibility and a clear professional presence, with emphasis on organization, monitoring and proper project support.",
+            sideLabel: "Key points",
+            side1: "Steady presence in recent years",
+            side2: "Knowledge and understanding of the field",
+            side3: "Project organization and support",
+            side4: "Clear professional image",
+            contactLabel: "Contact",
+            contactTitle: "Get in touch with us",
+            contactBtn: "Send Message",
+            location: "Nea Smyrni, Attica",
+            footerHeading: "Navigation",
+          },
+        };
+
+        function setDescription(content) {
+          const meta = document.querySelector('meta[name="description"]');
+          if (meta) meta.setAttribute("content", content);
+        }
+
+        function setStrongParagraph(selector, text) {
+          const el = document.querySelector(selector);
+          if (!el) return;
+
+          if (text.startsWith("ARP GENERAL I.K.E.")) {
+            el.innerHTML = `<strong>ARP GENERAL I.K.E.</strong>${text.replace("ARP GENERAL I.K.E.", "")}`;
+          } else if (text.startsWith("Η ARP GENERAL I.K.E.")) {
+            el.innerHTML = `Η <strong>ARP GENERAL I.K.E.</strong>${text.replace("Η ARP GENERAL I.K.E.", "")}`;
+          } else {
+            el.textContent = text;
+          }
+        }
+
+        function applyCompanyLanguage(language) {
+          const t = companyTranslations[language] || companyTranslations.gr;
+
+          document.documentElement.lang = t.htmlLang;
+          document.title = t.title;
+          setDescription(t.description);
+
+          const map = [
+            [".company-label", t.label],
+            [".company-hero-title", t.heroTitle],
+            [".company-hero-text", t.heroText],
+            [".company-side-label", t.sideLabel],
+            [".company-side-item-1", t.side1],
+            [".company-side-item-2", t.side2],
+            [".company-side-item-3", t.side3],
+            [".company-side-item-4", t.side4],
+            [".company-contact-label", t.contactLabel],
+            [".company-contact-title", t.contactTitle],
+            [".company-contact-btn", t.contactBtn],
+            [".company-contact-item-1", t.location],
+            [".company-footer-item-1", t.location],
+            [".company-footer-heading", t.footerHeading],
+          ];
+
+          map.forEach(([selector, value]) => {
+            const el = document.querySelector(selector);
+            if (el) el.textContent = value;
+          });
+
+          setStrongParagraph(".company-main-text-1", t.main1);
+
+          const main2 = document.querySelector(".company-main-text-2");
+          const main3 = document.querySelector(".company-main-text-3");
+          if (main2) main2.textContent = t.main2;
+          if (main3) main3.textContent = t.main3;
+        }
+
+        function getSavedLanguage() {
+          const saved = localStorage.getItem("arp-language");
+          return saved === "en" ? "en" : "gr";
+        }
+
+        function bindCompanyButtons() {
+          document.querySelectorAll(".lang-switch .lang-btn").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              setTimeout(() => {
+                applyCompanyLanguage(getSavedLanguage());
+              }, 0);
+            });
+          });
+        }
+
+        applyCompanyLanguage(getSavedLanguage());
+        bindCompanyButtons();
+      })();
+    </script>
   </body>
 </html>
