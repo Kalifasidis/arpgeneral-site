@@ -88,29 +88,19 @@ const translations = {
             "Σοβαρότητα, υπευθυνότητα και σαφής αντίληψη του αντικειμένου.",
 
           ".sectors-preview .section-label": "Τομέας Δραστηριότητας",
-          ".sectors-preview h2":
-            "Εστίαση σε έναν σαφή και συγκεκριμένο τομέα",
+          ".sectors-preview h2": "Εστίαση σε έναν σαφή και συγκεκριμένο τομέα",
           ".sectors-preview .sector-box h3":
             "Δίκτυα διανομής ηλεκτρικής ενέργειας Χαμηλής και Μέσης Τάσης",
 
           ".approach-section .section-label": "Η προσέγγισή μας",
-          ".approach-section h2":
-            "Οργάνωση, συνέπεια και επαγγελματική εικόνα",
+          ".approach-section h2": "Οργάνωση, συνέπεια και επαγγελματική εικόνα",
           ".approach-section .section-text":
             "Η προσέγγιση της ARP GENERAL I.K.E. βασίζεται στη σοβαρότητα, στη σωστή συνεργασία και στην καθαρή επαγγελματική παρουσία.",
-
-          ".contact-cta .section-label": "Επικοινωνία",
-          ".contact-cta h2": "Επικοινωνήστε μαζί μας",
-          ".contact-cta .primary-btn": "Αποστολή Μηνύματος",
 
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Πλοήγηση",
         },
         listItems: [
-          {
-            selector: ".contact-cta .contact-list li",
-            values: ["Νέα Σμύρνη, Αττική", "6978441042", "info@arpgeneral.com"],
-          },
           {
             selector: ".footer-brand > p:not(.footer-title)",
             values: ["Νέα Σμύρνη, Αττική", "info@arpgeneral.com", "6978441042"],
@@ -135,9 +125,6 @@ const translations = {
           "label[for='phone']": "Τηλέφωνο",
           "label[for='message']": "Μήνυμα",
           ".form-btn": "Αποστολή",
-          ".contact-cta .section-label": "ARP GENERAL I.K.E.",
-          ".contact-cta h2": "Είμαστε διαθέσιμοι για επικοινωνία",
-          ".contact-cta .primary-btn": "Αποστολή Email",
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Πλοήγηση",
         },
@@ -155,10 +142,6 @@ const translations = {
               ["Τηλέφωνο", "6978441042"],
               ["Email", "info@arpgeneral.com"],
             ],
-          },
-          {
-            selector: ".contact-cta .contact-list li",
-            values: ["Νέα Σμύρνη, Αττική", "6978441042", "info@arpgeneral.com"],
           },
           {
             selector: ".footer-brand > p:not(.footer-title)",
@@ -263,29 +246,19 @@ const translations = {
             "Seriousness, responsibility and clear understanding of the field.",
 
           ".sectors-preview .section-label": "Sector of activity",
-          ".sectors-preview h2":
-            "Focus on one clear and specific sector",
+          ".sectors-preview h2": "Focus on one clear and specific sector",
           ".sectors-preview .sector-box h3":
             "Low and Medium Voltage electrical power distribution networks",
 
           ".approach-section .section-label": "Our approach",
-          ".approach-section h2":
-            "Organization, consistency and professional image",
+          ".approach-section h2": "Organization, consistency and professional image",
           ".approach-section .section-text":
             "ARP GENERAL I.K.E.'s approach is based on seriousness, proper cooperation and a clear professional presence.",
-
-          ".contact-cta .section-label": "Contact",
-          ".contact-cta h2": "Get in touch with us",
-          ".contact-cta .primary-btn": "Send Message",
 
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Navigation",
         },
         listItems: [
-          {
-            selector: ".contact-cta .contact-list li",
-            values: ["Nea Smyrni, Attica", "6978441042", "info@arpgeneral.com"],
-          },
           {
             selector: ".footer-brand > p:not(.footer-title)",
             values: ["Nea Smyrni, Attica", "info@arpgeneral.com", "6978441042"],
@@ -310,9 +283,6 @@ const translations = {
           "label[for='phone']": "Phone",
           "label[for='message']": "Message",
           ".form-btn": "Send",
-          ".contact-cta .section-label": "ARP GENERAL I.K.E.",
-          ".contact-cta h2": "We are available for contact",
-          ".contact-cta .primary-btn": "Send Email",
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Navigation",
         },
@@ -330,10 +300,6 @@ const translations = {
               ["Phone", "6978441042"],
               ["Email", "info@arpgeneral.com"],
             ],
-          },
-          {
-            selector: ".contact-cta .contact-list li",
-            values: ["Nea Smyrni, Attica", "6978441042", "info@arpgeneral.com"],
           },
           {
             selector: ".footer-brand > p:not(.footer-title)",
