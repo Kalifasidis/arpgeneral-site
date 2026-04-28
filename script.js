@@ -22,82 +22,82 @@ const translations = {
     },
     pages: {
       "index.html": {
-        title: "ARP GENERAL I.K.E. | Έργα σε δίκτυα διανομής ηλεκτρικής ενέργειας",
+        title: "ARP GENERAL I.K.E. | Δίκτυα διανομής ηλεκτρικής ενέργειας",
         description:
-          "Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας, με σύγχρονη εταιρική παρουσία, τεχνογνωσία και οργανωμένη προσέγγιση.",
+          "Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας, με σύγχρονη και οργανωμένη επαγγελματική προσέγγιση.",
         selectors: {
           ".hero-home-copy .eyebrow": "ARP GENERAL I.K.E.",
-          ".hero-home-copy h1": "Έργα σε δίκτυα διανομής ηλεκτρικής ενέργειας",
+          ".hero-home-copy h1": "Δίκτυα διανομής ηλεκτρικής ενέργειας",
           ".hero-home-copy .hero-text":
-            "Σύγχρονη εταιρική παρουσία με τεχνογνωσία, οργάνωση και ουσιαστική γνώση του αντικειμένου.",
+            "Σύγχρονη επαγγελματική παρουσία με οργανωμένη και σοβαρή προσέγγιση.",
           ".hero-home-copy .primary-btn": "Επικοινωνία",
 
           ".hero-home-visual-panel h2": "Σοβαρή και οργανωμένη προσέγγιση",
           ".hero-home-visual-panel > p":
-            "Η εταιρεία δραστηριοποιείται στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας, με σταθερή παρουσία τα τελευταία χρόνια και επαγγελματική εικόνα.",
+            "Η εταιρεία δραστηριοποιείται στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας, με έμφαση στη συνέπεια και στην επαγγελματική εικόνα.",
 
           ".hero-home-points .hero-point:nth-child(1) h3": "Συνέπεια",
           ".hero-home-points .hero-point:nth-child(1) p":
-            "Επαγγελματική παρουσία με σταθερή προσήλωση στην ποιότητα του έργου.",
+            "Σταθερή και υπεύθυνη επαγγελματική παρουσία.",
           ".hero-home-points .hero-point:nth-child(2) h3": "Οργάνωση",
           ".hero-home-points .hero-point:nth-child(2) p":
-            "Δομημένη προσέγγιση σε υποστήριξη, παρακολούθηση και συντονισμό.",
-          ".hero-home-points .hero-point:nth-child(3) h3": "Τεχνική γνώση",
+            "Καθαρή και μεθοδική προσέγγιση σε κάθε συνεργασία.",
+          ".hero-home-points .hero-point:nth-child(3) h3": "Κατανόηση αντικειμένου",
           ".hero-home-points .hero-point:nth-child(3) p":
-            "Κατανόηση των πραγματικών απαιτήσεων σε έργα δικτύων διανομής.",
+            "Εστίαση στις πραγματικές απαιτήσεις του τομέα.",
 
           ".hero-home-stats .hero-home-stat:nth-child(1) .hero-home-stat-label": "Τομέας",
           ".hero-home-stats .hero-home-stat:nth-child(1) strong": "ΧΤ / ΜΤ",
           ".hero-home-stats .hero-home-stat:nth-child(2) .hero-home-stat-label": "Εστίαση",
-          ".hero-home-stats .hero-home-stat:nth-child(2) strong": "Οργάνωση έργων",
+          ".hero-home-stats .hero-home-stat:nth-child(2) strong": "Υποστήριξη & συντονισμός",
           ".hero-home-stats .hero-home-stat:nth-child(3) .hero-home-stat-label": "Προσέγγιση",
-          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Λειτουργικός συντονισμός",
+          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Οργάνωση & συνέπεια",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) h3":
             "Δίκτυα διανομής ηλεκτρικής ενέργειας",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) p":
-            "Εστίαση σε έργα που εντάσσονται στον ευρύτερο τομέα των δικτύων διανομής ηλεκτρικής ενέργειας.",
+            "Εστίαση στον τομέα της Χαμηλής και Μέσης Τάσης.",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) h3":
-            "Οργάνωση και υποστήριξη έργων",
+            "Οργάνωση και υποστήριξη",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) p":
-            "Επαγγελματική προσέγγιση με έμφαση στον συντονισμό, στην παρακολούθηση και στην ομαλή εξέλιξη του έργου.",
+            "Λειτουργική προσέγγιση με έμφαση στη σωστή παρακολούθηση.",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) h3":
-            "Τεχνογνωσία και λειτουργικός συντονισμός",
+            "Τεχνικός συντονισμός",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) p":
-            "Γνώση του αντικειμένου και ουσιαστική κατανόηση των απαιτήσεων που συνοδεύουν τεχνικά έργα πεδίου.",
+            "Καθαρή επαγγελματική εικόνα και ουσιαστική κατανόηση του αντικειμένου.",
 
           ".intro-section .section-label": "Η ARP GENERAL I.K.E.",
           ".intro-section h2":
-            "Σύγχρονη εταιρική παρουσία με οργανωτική και τεχνική προσέγγιση",
+            "Σύγχρονη εταιρική παρουσία με καθαρή επαγγελματική κατεύθυνση",
           ".intro-section .section-text":
-            "Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας, με προσανατολισμό στη συνέπεια, στην οργάνωση και στη σωστή υποστήριξη του έργου.",
+            "Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας, με έμφαση στην οργάνωση, στη συνέπεια και στη σωστή συνεργασία.",
 
-          ".highlights-section .section-label": "Βασικοί άξονες",
-          ".highlights-section h2": "Καθαρή και στοχευμένη εταιρική παρουσία",
+          ".highlights-section .section-label": "Βασικά σημεία",
+          ".highlights-section h2": "Απλή, σοβαρή και στοχευμένη παρουσία",
           ".highlights-section .cards-grid .info-card:nth-child(1) h3":
-            "Δίκτυα διανομής ηλεκτρικής ενέργειας",
+            "Χαμηλή και Μέση Τάση",
           ".highlights-section .cards-grid .info-card:nth-child(1) p":
-            "Εστίαση σε έργα που εντάσσονται στον ευρύτερο τομέα των δικτύων διανομής ηλεκτρικής ενέργειας.",
+            "Εστίαση στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας.",
           ".highlights-section .cards-grid .info-card:nth-child(2) h3":
-            "Οργάνωση και υποστήριξη έργων",
+            "Οργάνωση έργου",
           ".highlights-section .cards-grid .info-card:nth-child(2) p":
-            "Επαγγελματική προσέγγιση με έμφαση στον συντονισμό, στην παρακολούθηση και στην ομαλή εξέλιξη του έργου.",
+            "Έμφαση στη σωστή υποστήριξη και στην καθαρή παρακολούθηση.",
           ".highlights-section .cards-grid .info-card:nth-child(3) h3":
-            "Τεχνογνωσία και λειτουργικός συντονισμός",
+            "Επαγγελματική προσέγγιση",
           ".highlights-section .cards-grid .info-card:nth-child(3) p":
-            "Γνώση του αντικειμένου και ουσιαστική κατανόηση των απαιτήσεων που συνοδεύουν τεχνικά έργα πεδίου.",
+            "Σοβαρότητα, υπευθυνότητα και σαφής αντίληψη του αντικειμένου.",
 
           ".sectors-preview .section-label": "Τομέας Δραστηριότητας",
           ".sectors-preview h2":
-            "Ο βασικός τομέας στον οποίο επικεντρώνεται η δραστηριότητα της εταιρείας",
+            "Εστίαση σε έναν σαφή και συγκεκριμένο τομέα",
           ".sectors-preview .sector-box h3":
             "Δίκτυα διανομής ηλεκτρικής ενέργειας Χαμηλής και Μέσης Τάσης",
 
           ".approach-section .section-label": "Η προσέγγισή μας",
           ".approach-section h2":
-            "Επαγγελματική προσέγγιση με έμφαση στην οργάνωση και τη συνέπεια",
+            "Οργάνωση, συνέπεια και επαγγελματική εικόνα",
           ".approach-section .section-text":
-            "Η εταιρική παρουσία της ARP GENERAL I.K.E. βασίζεται στη σοβαρότητα, στη σαφή επαγγελματική εικόνα και στην οργανωμένη υποστήριξη έργων που απαιτούν τεχνική κατανόηση και λειτουργικό συντονισμό.",
+            "Η προσέγγιση της ARP GENERAL I.K.E. βασίζεται στη σοβαρότητα, στη σωστή συνεργασία και στην καθαρή επαγγελματική παρουσία.",
 
           ".contact-cta .section-label": "Επικοινωνία",
           ".contact-cta h2": "Επικοινωνήστε μαζί μας",
@@ -121,12 +121,12 @@ const translations = {
       "contact.html": {
         title: "Επικοινωνία | ARP GENERAL I.K.E.",
         description:
-          "Επικοινωνήστε με την ARP GENERAL I.K.E. για πληροφορίες σχετικά με έργα σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
+          "Επικοινωνήστε με την ARP GENERAL I.K.E. για πληροφορίες σχετικά με τον τομέα δραστηριότητάς της.",
         selectors: {
           ".page-hero .section-label": "Επικοινωνία",
           ".page-hero h1": "Επικοινωνήστε με την ARP GENERAL I.K.E.",
           ".page-hero .page-hero-text":
-            "Για πληροφορίες σχετικά με την εταιρική παρουσία και τον τομέα δραστηριότητας της ARP GENERAL I.K.E., μπορείτε να επικοινωνήσετε μαζί μας μέσω των παρακάτω στοιχείων ή της φόρμας επικοινωνίας.",
+            "Για περισσότερες πληροφορίες, μπορείτε να επικοινωνήσετε μαζί μας μέσω των παρακάτω στοιχείων ή της φόρμας επικοινωνίας.",
           ".content-main .section-label": "Στοιχεία επικοινωνίας",
           ".content-main .contact-page-title": "ARP GENERAL I.K.E.",
           ".contact-form-card .section-label": "Φόρμα Επικοινωνίας",
@@ -136,8 +136,7 @@ const translations = {
           "label[for='message']": "Μήνυμα",
           ".form-btn": "Αποστολή",
           ".contact-cta .section-label": "ARP GENERAL I.K.E.",
-          ".contact-cta h2":
-            "Σύγχρονη εταιρική παρουσία με καθαρή επαγγελματική εικόνα",
+          ".contact-cta h2": "Είμαστε διαθέσιμοι για επικοινωνία",
           ".contact-cta .primary-btn": "Αποστολή Email",
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Πλοήγηση",
@@ -171,19 +170,19 @@ const translations = {
       "company.html": {
         title: "Η Εταιρεία | ARP GENERAL I.K.E.",
         description:
-          "Η ARP GENERAL I.K.E. αποτελεί σύγχρονη εταιρική παρουσία στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
+          "Η ARP GENERAL I.K.E. αποτελεί σύγχρονη εταιρική παρουσία στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας.",
       },
 
       "services.html": {
         title: "Υπηρεσίες | ARP GENERAL I.K.E.",
         description:
-          "Δείτε τις υπηρεσίες και τη συνολική επαγγελματική προσέγγιση της ARP GENERAL I.K.E. στον τομέα των έργων σε δίκτυα διανομής ηλεκτρικής ενέργειας.",
+          "Υπηρεσίες υποστήριξης, οργάνωσης και τεχνικού συντονισμού στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας από την ARP GENERAL I.K.E.",
       },
 
       "sectors.html": {
         title: "Τομείς Δραστηριότητας | ARP GENERAL I.K.E.",
         description:
-          "Η ARP GENERAL I.K.E. επικεντρώνεται στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας Χαμηλής και Μέσης Τάσης.",
+          "Η ARP GENERAL I.K.E. εστιάζει στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας Χαμηλής και Μέσης Τάσης.",
       },
     },
   },
@@ -198,82 +197,82 @@ const translations = {
     },
     pages: {
       "index.html": {
-        title: "ARP GENERAL I.K.E. | Electrical power distribution network projects",
+        title: "ARP GENERAL I.K.E. | Electrical power distribution networks",
         description:
-          "ARP GENERAL I.K.E. is active in electrical power distribution network projects, with a modern corporate presence, know-how and an organized approach.",
+          "ARP GENERAL I.K.E. is active in the field of electrical power distribution networks, with a modern and organized professional approach.",
         selectors: {
           ".hero-home-copy .eyebrow": "ARP GENERAL I.K.E.",
-          ".hero-home-copy h1": "Electrical power distribution network projects",
+          ".hero-home-copy h1": "Electrical power distribution networks",
           ".hero-home-copy .hero-text":
-            "Modern corporate presence with know-how, organization and solid understanding of the field.",
+            "Modern professional presence with an organized and serious approach.",
           ".hero-home-copy .primary-btn": "Contact",
 
           ".hero-home-visual-panel h2": "Serious and organized approach",
           ".hero-home-visual-panel > p":
-            "The company is active in electrical power distribution network projects, with a steady presence in recent years and a professional image.",
+            "The company is active in the field of electrical power distribution networks, with emphasis on consistency and a professional image.",
 
           ".hero-home-points .hero-point:nth-child(1) h3": "Consistency",
           ".hero-home-points .hero-point:nth-child(1) p":
-            "Professional presence with a steady commitment to project quality.",
+            "Stable and responsible professional presence.",
           ".hero-home-points .hero-point:nth-child(2) h3": "Organization",
           ".hero-home-points .hero-point:nth-child(2) p":
-            "Structured approach to support, monitoring and coordination.",
-          ".hero-home-points .hero-point:nth-child(3) h3": "Technical knowledge",
+            "Clear and methodical approach in every cooperation.",
+          ".hero-home-points .hero-point:nth-child(3) h3": "Field understanding",
           ".hero-home-points .hero-point:nth-child(3) p":
-            "Understanding of the real requirements involved in distribution network projects.",
+            "Focus on the real requirements of the sector.",
 
           ".hero-home-stats .hero-home-stat:nth-child(1) .hero-home-stat-label": "Sector",
           ".hero-home-stats .hero-home-stat:nth-child(1) strong": "LV / MV",
           ".hero-home-stats .hero-home-stat:nth-child(2) .hero-home-stat-label": "Focus",
-          ".hero-home-stats .hero-home-stat:nth-child(2) strong": "Project organization",
+          ".hero-home-stats .hero-home-stat:nth-child(2) strong": "Support & coordination",
           ".hero-home-stats .hero-home-stat:nth-child(3) .hero-home-stat-label": "Approach",
-          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Operational coordination",
+          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Organization & consistency",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) h3":
             "Electrical power distribution networks",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) p":
-            "Focus on projects that fall within the broader field of electrical power distribution networks.",
+            "Focus on the Low and Medium Voltage sector.",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) h3":
-            "Project organization and support",
+            "Organization and support",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) p":
-            "Professional approach with emphasis on coordination, monitoring and smooth project progress.",
+            "Functional approach with emphasis on proper monitoring.",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) h3":
-            "Know-how and operational coordination",
+            "Technical coordination",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) p":
-            "Knowledge of the field and substantial understanding of the requirements that accompany technical on-site projects.",
+            "Clear professional image and meaningful understanding of the field.",
 
           ".intro-section .section-label": "ARP GENERAL I.K.E.",
           ".intro-section h2":
-            "Modern corporate presence with an organizational and technical approach",
+            "Modern corporate presence with a clear professional direction",
           ".intro-section .section-text":
-            "ARP GENERAL I.K.E. is active in electrical power distribution network projects, focusing on consistency, organization and proper project support.",
+            "ARP GENERAL I.K.E. is active in the field of electrical power distribution networks, with emphasis on organization, consistency and proper cooperation.",
 
-          ".highlights-section .section-label": "Key pillars",
-          ".highlights-section h2": "Clear and focused corporate presence",
+          ".highlights-section .section-label": "Key points",
+          ".highlights-section h2": "Simple, serious and focused presence",
           ".highlights-section .cards-grid .info-card:nth-child(1) h3":
-            "Electrical power distribution networks",
+            "Low and Medium Voltage",
           ".highlights-section .cards-grid .info-card:nth-child(1) p":
-            "Focus on projects that fall within the broader field of electrical power distribution networks.",
+            "Focus on the field of electrical power distribution networks.",
           ".highlights-section .cards-grid .info-card:nth-child(2) h3":
-            "Project organization and support",
+            "Project organization",
           ".highlights-section .cards-grid .info-card:nth-child(2) p":
-            "Professional approach with emphasis on coordination, monitoring and smooth project progress.",
+            "Emphasis on proper support and clear monitoring.",
           ".highlights-section .cards-grid .info-card:nth-child(3) h3":
-            "Know-how and operational coordination",
+            "Professional approach",
           ".highlights-section .cards-grid .info-card:nth-child(3) p":
-            "Knowledge of the field and substantial understanding of the requirements that accompany technical on-site projects.",
+            "Seriousness, responsibility and clear understanding of the field.",
 
           ".sectors-preview .section-label": "Sector of activity",
           ".sectors-preview h2":
-            "The main sector in which the company's activity is focused",
+            "Focus on one clear and specific sector",
           ".sectors-preview .sector-box h3":
             "Low and Medium Voltage electrical power distribution networks",
 
           ".approach-section .section-label": "Our approach",
           ".approach-section h2":
-            "Professional approach with emphasis on organization and consistency",
+            "Organization, consistency and professional image",
           ".approach-section .section-text":
-            "The corporate presence of ARP GENERAL I.K.E. is based on seriousness, a clear professional image and organized support for projects that require technical understanding and operational coordination.",
+            "ARP GENERAL I.K.E.'s approach is based on seriousness, proper cooperation and a clear professional presence.",
 
           ".contact-cta .section-label": "Contact",
           ".contact-cta h2": "Get in touch with us",
@@ -297,12 +296,12 @@ const translations = {
       "contact.html": {
         title: "Contact | ARP GENERAL I.K.E.",
         description:
-          "Contact ARP GENERAL I.K.E. for information regarding electrical power distribution network projects.",
+          "Contact ARP GENERAL I.K.E. for more information regarding its field of activity.",
         selectors: {
           ".page-hero .section-label": "Contact",
           ".page-hero h1": "Contact ARP GENERAL I.K.E.",
           ".page-hero .page-hero-text":
-            "For information regarding the company's profile and sector of activity, you can contact ARP GENERAL I.K.E. through the details below or via the contact form.",
+            "For more information, you can contact us through the details below or via the contact form.",
           ".content-main .section-label": "Contact details",
           ".content-main .contact-page-title": "ARP GENERAL I.K.E.",
           ".contact-form-card .section-label": "Contact Form",
@@ -312,7 +311,7 @@ const translations = {
           "label[for='message']": "Message",
           ".form-btn": "Send",
           ".contact-cta .section-label": "ARP GENERAL I.K.E.",
-          ".contact-cta h2": "Modern corporate presence with a clear professional image",
+          ".contact-cta h2": "We are available for contact",
           ".contact-cta .primary-btn": "Send Email",
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Navigation",
@@ -346,13 +345,13 @@ const translations = {
       "company.html": {
         title: "Company | ARP GENERAL I.K.E.",
         description:
-          "ARP GENERAL I.K.E. presents its corporate profile, organizational approach and activity in the electrical power distribution network sector.",
+          "ARP GENERAL I.K.E. is a modern corporate presence in the field of electrical power distribution networks.",
       },
 
       "services.html": {
         title: "Services | ARP GENERAL I.K.E.",
         description:
-          "Explore the services and the overall professional approach of ARP GENERAL I.K.E. in electrical power distribution network projects.",
+          "Support, organization and technical coordination services in the field of electrical power distribution networks by ARP GENERAL I.K.E.",
       },
 
       "sectors.html": {
