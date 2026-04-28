@@ -70,6 +70,13 @@
               Στόχος της εταιρείας είναι μια καθαρή και σοβαρή παρουσία, με έμφαση
               στη σωστή οργάνωση και στην υπεύθυνη συνεργασία.
             </p>
+
+            <p class="company-founder-text">
+              Η ARP GENERAL I.K.E. συστάθηκε τον Ιούλιο του 2019 από τον ιδρυτή της,
+              Αναστασίου Προκόπιο-Ριχάρδο, ο οποίος αποτελεί και τον μοναδικό εταίρο
+              της εταιρείας. Είναι διπλωματούχος Μηχανικός Παραγωγής και Διοίκησης
+              του Πολυτεχνείου Κρήτης.
+            </p>
           </div>
 
           <aside class="content-side">
@@ -128,6 +135,8 @@
               "Η προσέγγισή της βασίζεται στην κατανόηση του αντικειμένου, στην οργανωμένη υποστήριξη και στη συνεπή επαγγελματική εικόνα.",
             main3:
               "Στόχος της εταιρείας είναι μια καθαρή και σοβαρή παρουσία, με έμφαση στη σωστή οργάνωση και στην υπεύθυνη συνεργασία.",
+            founder:
+              "Η ARP GENERAL I.K.E. συστάθηκε τον Ιούλιο του 2019 από τον ιδρυτή της, Αναστασίου Προκόπιο-Ριχάρδο, ο οποίος αποτελεί και τον μοναδικό εταίρο της εταιρείας. Είναι διπλωματούχος Μηχανικός Παραγωγής και Διοίκησης του Πολυτεχνείου Κρήτης.",
             sideLabel: "Βασικά στοιχεία",
             side1: "Σύγχρονη επαγγελματική παρουσία",
             side2: "Κατανόηση του αντικειμένου",
@@ -152,6 +161,8 @@
               "Its approach is based on understanding the field, organized support and a consistent professional image.",
             main3:
               "The company's goal is a clear and serious presence, with emphasis on proper organization and responsible cooperation.",
+            founder:
+              "ARP GENERAL I.K.E. was established in July 2019 by its founder, Anastasios Prokopios-Richardos, who is also the sole partner of the company. He holds a diploma in Production Engineering and Management from the Technical University of Crete.",
             sideLabel: "Key points",
             side1: "Modern professional presence",
             side2: "Understanding of the field",
@@ -209,8 +220,11 @@
 
           const main2 = document.querySelector(".company-main-text-2");
           const main3 = document.querySelector(".company-main-text-3");
+          const founder = document.querySelector(".company-founder-text");
+
           if (main2) main2.textContent = t.main2;
           if (main3) main3.textContent = t.main3;
+          if (founder) founder.textContent = t.founder;
         }
 
         function getSavedLanguage() {
