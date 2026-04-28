@@ -66,20 +66,24 @@ const translations = {
 
           ".highlights-section .section-label": "Πλοήγηση",
           ".highlights-section h2": "Βρείτε γρήγορα την πληροφορία που χρειάζεστε",
+
           ".highlights-section .cards-grid .info-card:nth-child(1) h3": "Η Εταιρεία",
           ".highlights-section .cards-grid .info-card:nth-child(1) p":
             "Σύντομη παρουσίαση της εταιρείας, της δομής και της επαγγελματικής της κατεύθυνσης.",
           ".highlights-section .cards-grid .info-card:nth-child(1) .text-link": "Μετάβαση",
+          ".info-card:nth-child(1) .text-link": "Μετάβαση",
 
           ".highlights-section .cards-grid .info-card:nth-child(2) h3": "Υπηρεσίες",
           ".highlights-section .cards-grid .info-card:nth-child(2) p":
             "Πληροφορίες για την υποστήριξη, την οργάνωση και τον τεχνικό συντονισμό.",
           ".highlights-section .cards-grid .info-card:nth-child(2) .text-link": "Μετάβαση",
+          ".info-card:nth-child(2) .text-link": "Μετάβαση",
 
           ".highlights-section .cards-grid .info-card:nth-child(3) h3": "Επικοινωνία",
           ".highlights-section .cards-grid .info-card:nth-child(3) p":
             "Στοιχεία επικοινωνίας και φόρμα για άμεση αποστολή μηνύματος.",
           ".highlights-section .cards-grid .info-card:nth-child(3) .text-link": "Μετάβαση",
+          ".info-card:nth-child(3) .text-link": "Μετάβαση",
 
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Πλοήγηση",
@@ -208,20 +212,24 @@ const translations = {
 
           ".highlights-section .section-label": "Navigation",
           ".highlights-section h2": "Find the information you need quickly",
+
           ".highlights-section .cards-grid .info-card:nth-child(1) h3": "Company",
           ".highlights-section .cards-grid .info-card:nth-child(1) p":
             "A brief presentation of the company, its structure and professional direction.",
           ".highlights-section .cards-grid .info-card:nth-child(1) .text-link": "Go",
+          ".info-card:nth-child(1) .text-link": "Go",
 
           ".highlights-section .cards-grid .info-card:nth-child(2) h3": "Services",
           ".highlights-section .cards-grid .info-card:nth-child(2) p":
             "Information about support, organization and technical coordination.",
           ".highlights-section .cards-grid .info-card:nth-child(2) .text-link": "Go",
+          ".info-card:nth-child(2) .text-link": "Go",
 
           ".highlights-section .cards-grid .info-card:nth-child(3) h3": "Contact",
           ".highlights-section .cards-grid .info-card:nth-child(3) p":
             "Contact details and a form for sending a direct message.",
           ".highlights-section .cards-grid .info-card:nth-child(3) .text-link": "Go",
+          ".info-card:nth-child(3) .text-link": "Go",
 
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Navigation",
