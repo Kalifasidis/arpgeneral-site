@@ -24,66 +24,46 @@ const translations = {
       "index.html": {
         title: "ARP GENERAL I.K.E. | Δίκτυα διανομής ηλεκτρικής ενέργειας",
         description:
-          "Η ARP GENERAL I.K.E. δραστηριοποιείται στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας, με σύγχρονη και οργανωμένη επαγγελματική προσέγγιση.",
+          "Υποστήριξη, οργάνωση και τεχνικός συντονισμός έργων δικτύων διανομής ηλεκτρικής ενέργειας Χαμηλής και Μέσης Τάσης.",
         selectors: {
           ".hero-home-copy .eyebrow": "ARP GENERAL I.K.E.",
-          ".hero-home-copy h1": "Δίκτυα διανομής ηλεκτρικής ενέργειας",
+          ".hero-home-copy h1":
+            "Υποστήριξη και οργάνωση έργων δικτύων διανομής ηλεκτρικής ενέργειας",
           ".hero-home-copy .hero-text":
-            "Σύγχρονη εταιρική παρουσία στον τομέα των δικτύων διανομής ηλεκτρικής ενέργειας.",
-          ".hero-home-copy .primary-btn": "Η Εταιρεία",
+            "Δραστηριοποίηση στον τομέα της Χαμηλής και Μέσης Τάσης, με έμφαση στον τεχνικό συντονισμό, την οργάνωση και τη συνεπή επαγγελματική προσέγγιση.",
+          ".hero-home-copy .primary-btn": "Επικοινωνήστε μαζί μας",
 
-          ".hero-home-visual-panel h2": "Καθαρή και οργανωμένη προσέγγιση",
+          ".hero-home-visual-panel h2": "Σαφής επαγγελματική κατεύθυνση",
           ".hero-home-visual-panel > p":
-            "Σύντομη παρουσίαση της εταιρείας, των υπηρεσιών και του βασικού τομέα δραστηριότητας.",
+            "Στόχος είναι η οργανωμένη υποστήριξη έργων, με καθαρή δομή, συνέπεια και σωστή παρακολούθηση.",
 
           ".hero-home-stats .hero-home-stat:nth-child(1) .hero-home-stat-label": "Τομέας",
           ".hero-home-stats .hero-home-stat:nth-child(1) strong": "ΧΤ / ΜΤ",
           ".hero-home-stats .hero-home-stat:nth-child(2) .hero-home-stat-label": "Αντικείμενο",
           ".hero-home-stats .hero-home-stat:nth-child(2) strong": "Δίκτυα διανομής",
-          ".hero-home-stats .hero-home-stat:nth-child(3) .hero-home-stat-label": "Προσέγγιση",
-          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Οργάνωση",
+          ".hero-home-stats .hero-home-stat:nth-child(3) .hero-home-stat-label": "Εστίαση",
+          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Οργάνωση & συντονισμός",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) h3": "Η Εταιρεία",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) p":
-            "Μάθετε περισσότερα για την ARP GENERAL I.K.E. και τη βασική της κατεύθυνση.",
-          ".hero-home-bottom .hero-home-bottom-card:nth-child(1) .text-link": "Περισσότερα",
+            "Σύντομη παρουσίαση της δομής και της επαγγελματικής κατεύθυνσης.",
+          ".hero-home-bottom .hero-home-bottom-card:nth-child(1) .text-link": "Δείτε περισσότερα",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) h3": "Υπηρεσίες",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) p":
-            "Δείτε συνοπτικά τις υπηρεσίες υποστήριξης, οργάνωσης και τεχνικού συντονισμού.",
-          ".hero-home-bottom .hero-home-bottom-card:nth-child(2) .text-link": "Περισσότερα",
+            "Υποστήριξη, οργάνωση και τεχνικός συντονισμός έργων.",
+          ".hero-home-bottom .hero-home-bottom-card:nth-child(2) .text-link": "Δείτε περισσότερα",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) h3": "Τομείς Δραστηριότητας",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) p":
-            "Δείτε τον βασικό τομέα στον οποίο εστιάζει η εταιρεία.",
-          ".hero-home-bottom .hero-home-bottom-card:nth-child(3) .text-link": "Περισσότερα",
+            "Εστίαση στα δίκτυα διανομής ηλεκτρικής ενέργειας.",
+          ".hero-home-bottom .hero-home-bottom-card:nth-child(3) .text-link": "Δείτε περισσότερα",
 
-          ".intro-section .section-label": "Σύντομη παρουσίαση",
+          ".intro-section .section-label": "Εμπειρία στον τομέα",
           ".intro-section h2":
-            "Λιτή εταιρική παρουσία με σαφή επαγγελματικό προσανατολισμό",
+            "Οργανωμένη προσέγγιση σε πραγματικές απαιτήσεις έργων",
           ".intro-section .section-text":
-            "Η αρχική σελίδα λειτουργεί ως σύντομη εισαγωγή στην εταιρεία και οδηγεί στις βασικές ενότητες του site, όπου παρουσιάζονται αναλυτικότερα οι πληροφορίες.",
-
-          ".highlights-section .section-label": "Πλοήγηση",
-          ".highlights-section h2": "Βρείτε γρήγορα την πληροφορία που χρειάζεστε",
-
-          ".highlights-section .cards-grid .info-card:nth-child(1) h3": "Η Εταιρεία",
-          ".highlights-section .cards-grid .info-card:nth-child(1) p":
-            "Σύντομη παρουσίαση της εταιρείας, της δομής και της επαγγελματικής της κατεύθυνσης.",
-          ".highlights-section .cards-grid .info-card:nth-child(1) .text-link": "Μετάβαση",
-          ".info-card:nth-child(1) .text-link": "Μετάβαση",
-
-          ".highlights-section .cards-grid .info-card:nth-child(2) h3": "Υπηρεσίες",
-          ".highlights-section .cards-grid .info-card:nth-child(2) p":
-            "Πληροφορίες για την υποστήριξη, την οργάνωση και τον τεχνικό συντονισμό.",
-          ".highlights-section .cards-grid .info-card:nth-child(2) .text-link": "Μετάβαση",
-          ".info-card:nth-child(2) .text-link": "Μετάβαση",
-
-          ".highlights-section .cards-grid .info-card:nth-child(3) h3": "Επικοινωνία",
-          ".highlights-section .cards-grid .info-card:nth-child(3) p":
-            "Στοιχεία επικοινωνίας και φόρμα για άμεση αποστολή μηνύματος.",
-          ".highlights-section .cards-grid .info-card:nth-child(3) .text-link": "Μετάβαση",
-          ".info-card:nth-child(3) .text-link": "Μετάβαση",
+            "Η δραστηριότητα επικεντρώνεται στην κατανόηση του αντικειμένου, στη σωστή υποστήριξη έργων και στη διατήρηση μιας καθαρής και αξιόπιστης επαγγελματικής εικόνας.",
 
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Πλοήγηση",
@@ -170,66 +150,46 @@ const translations = {
       "index.html": {
         title: "ARP GENERAL I.K.E. | Electrical power distribution networks",
         description:
-          "ARP GENERAL I.K.E. is active in the field of electrical power distribution networks, with a modern and organized professional approach.",
+          "Support, organization and technical coordination of Low and Medium Voltage electrical power distribution network projects.",
         selectors: {
           ".hero-home-copy .eyebrow": "ARP GENERAL I.K.E.",
-          ".hero-home-copy h1": "Electrical power distribution networks",
+          ".hero-home-copy h1":
+            "Support and organization of electrical power distribution network projects",
           ".hero-home-copy .hero-text":
-            "Modern corporate presence in the field of electrical power distribution networks.",
-          ".hero-home-copy .primary-btn": "Company",
+            "Activity in the Low and Medium Voltage sector, with emphasis on technical coordination, organization and a consistent professional approach.",
+          ".hero-home-copy .primary-btn": "Contact us",
 
-          ".hero-home-visual-panel h2": "Clear and organized approach",
+          ".hero-home-visual-panel h2": "Clear professional direction",
           ".hero-home-visual-panel > p":
-            "A brief presentation of the company, its services and its main field of activity.",
+            "The goal is organized project support, with clear structure, consistency and proper monitoring.",
 
           ".hero-home-stats .hero-home-stat:nth-child(1) .hero-home-stat-label": "Sector",
           ".hero-home-stats .hero-home-stat:nth-child(1) strong": "LV / MV",
           ".hero-home-stats .hero-home-stat:nth-child(2) .hero-home-stat-label": "Field",
           ".hero-home-stats .hero-home-stat:nth-child(2) strong": "Distribution networks",
-          ".hero-home-stats .hero-home-stat:nth-child(3) .hero-home-stat-label": "Approach",
-          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Organization",
+          ".hero-home-stats .hero-home-stat:nth-child(3) .hero-home-stat-label": "Focus",
+          ".hero-home-stats .hero-home-stat:nth-child(3) strong": "Organization & coordination",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) h3": "Company",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(1) p":
-            "Learn more about ARP GENERAL I.K.E. and its main direction.",
-          ".hero-home-bottom .hero-home-bottom-card:nth-child(1) .text-link": "More",
+            "A brief presentation of the company structure and professional direction.",
+          ".hero-home-bottom .hero-home-bottom-card:nth-child(1) .text-link": "Learn more",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) h3": "Services",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(2) p":
-            "See a brief overview of support, organization and technical coordination services.",
-          ".hero-home-bottom .hero-home-bottom-card:nth-child(2) .text-link": "More",
+            "Support, organization and technical coordination of projects.",
+          ".hero-home-bottom .hero-home-bottom-card:nth-child(2) .text-link": "Learn more",
 
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) h3": "Sectors",
           ".hero-home-bottom .hero-home-bottom-card:nth-child(3) p":
-            "See the main sector on which the company focuses.",
-          ".hero-home-bottom .hero-home-bottom-card:nth-child(3) .text-link": "More",
+            "Focus on electrical power distribution networks.",
+          ".hero-home-bottom .hero-home-bottom-card:nth-child(3) .text-link": "Learn more",
 
-          ".intro-section .section-label": "Brief presentation",
+          ".intro-section .section-label": "Field experience",
           ".intro-section h2":
-            "A concise corporate presence with clear professional direction",
+            "Organized approach to real project requirements",
           ".intro-section .section-text":
-            "The homepage serves as a brief introduction to the company and guides visitors to the main sections of the website, where information is presented in more detail.",
-
-          ".highlights-section .section-label": "Navigation",
-          ".highlights-section h2": "Find the information you need quickly",
-
-          ".highlights-section .cards-grid .info-card:nth-child(1) h3": "Company",
-          ".highlights-section .cards-grid .info-card:nth-child(1) p":
-            "A brief presentation of the company, its structure and professional direction.",
-          ".highlights-section .cards-grid .info-card:nth-child(1) .text-link": "Go",
-          ".info-card:nth-child(1) .text-link": "Go",
-
-          ".highlights-section .cards-grid .info-card:nth-child(2) h3": "Services",
-          ".highlights-section .cards-grid .info-card:nth-child(2) p":
-            "Information about support, organization and technical coordination.",
-          ".highlights-section .cards-grid .info-card:nth-child(2) .text-link": "Go",
-          ".info-card:nth-child(2) .text-link": "Go",
-
-          ".highlights-section .cards-grid .info-card:nth-child(3) h3": "Contact",
-          ".highlights-section .cards-grid .info-card:nth-child(3) p":
-            "Contact details and a form for sending a direct message.",
-          ".highlights-section .cards-grid .info-card:nth-child(3) .text-link": "Go",
-          ".info-card:nth-child(3) .text-link": "Go",
+            "The activity focuses on understanding the field, proper project support and maintaining a clear and reliable professional image.",
 
           ".footer-brand .footer-title": "ARP GENERAL I.K.E.",
           ".footer-links .footer-heading": "Navigation",
